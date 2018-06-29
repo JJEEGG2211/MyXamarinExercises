@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace HelloWorld
+namespace Practice
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class GreetPage : ContentPage
-	{
-		public GreetPage ()
-		{
-			InitializeComponent ();
-             
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class GreetPage : ContentPage
+    {
+        public GreetPage()
+        {
+            InitializeComponent();
+
             slider.Value = 0.5;
 
             switch (Device.RuntimePlatform)
@@ -25,7 +25,7 @@ namespace HelloWorld
                     break;
                 default:
                     Padding = new Thickness(0, 0, 0, 0);
-                    break;                    
+                    break;
             }
         }
     }

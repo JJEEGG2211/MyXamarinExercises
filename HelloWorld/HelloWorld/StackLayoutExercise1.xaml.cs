@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace HelloWorld
+namespace Practice
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackLayoutExercise1 : ContentPage
-	{
-		public StackLayoutExercise1 ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class StackLayoutExercise1 : ContentPage
+    {
+        public StackLayoutExercise1()
+        {
+            InitializeComponent();
+        }
+    }
 }

@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace HelloWorld
+namespace Practice
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackPage : ContentPage
-	{
-		public StackPage ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class StackPage : ContentPage
+    {
+        public StackPage ()
+        {
+            InitializeComponent ();
 
             var layout = new StackLayout
             {
@@ -23,6 +23,6 @@ namespace HelloWorld
                 Orientation = StackOrientation.Horizontal,
             };
             layout.Children.Add(new Label { Text = "Label 1" });
-		}
-	}
+        }
+    }
 }

@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace HelloWorld
+namespace Practice
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class GridPage : ContentPage
-	{
-		public GridPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class GridPage : ContentPage
+    {
+        public GridPage ()
+        {
+            InitializeComponent ();
+        }
+    }
 }
