@@ -1,5 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.AbsoluteLayoutExercise2">
-    <ContentPage.Content>
-    </ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="HelloWorld.AbsoluteLayoutExercise2"
+    >
+    <ContentPage.Padding>
+        <OnPlatform 
+            x:TypeArguments="Thickness"
+            iOS="0,20,0,0"
+        />
+    </ContentPage.Padding>
+    
+    <AbsoluteLayout>
+        <Image
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="SizeProportional"
+            Source="http://lorempixel.com/1920/1080/nature/7"
+            Aspect="AspectFill"
+        />
+        <Label
+            AbsoluteLayout.LayoutBounds="1, 20, 1, 1"
+            AbsoluteLayout.LayoutFlags="XProportional, SizeProportional"
+            Text="Relax"
+            FontSize="30"
+        />
+        
+        <BoxView
+            BackgroundColor="Black"
+            Opacity="0.5"
+            AbsoluteLayout.LayoutBounds="0.5, 1, 1, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+        />
+    </AbsoluteLayout>
 </ContentPage>

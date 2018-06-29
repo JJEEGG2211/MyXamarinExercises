@@ -22,7 +22,8 @@ namespace HelloWorld
 				//new QuotesPage();
 				//new GridExercise2();
 				//new AbsolutePage();
-				new AbsoluteLayoutExercise1();
+				//new AbsoluteLayoutExercise1();
+				new AbsoluteLayoutExercise2();
 
         }
 
