@@ -3,7 +3,7 @@
         Padding="0,0,0,0"
         xmlns="http://xamarin.com/schemas/2014/forms"
         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-        x:Class="Practice.StackPage">
+        x:Class="HelloWorld.StackPage">
     <!--<StackLayout Spacing="20" 
                  Padding="40" 
                  VerticalOptions="Center" 

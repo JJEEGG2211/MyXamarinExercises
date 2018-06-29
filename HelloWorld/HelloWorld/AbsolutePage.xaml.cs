@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace Practice
+namespace HelloWorld
 {
     public partial class AbsolutePage : ContentPage
     {
